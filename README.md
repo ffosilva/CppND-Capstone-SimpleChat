@@ -1,10 +1,10 @@
-# CPPND: Capstone Hello World Repo
+# CPPND: Capstone Project - SimpleChat
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
+This is the repository of my Capstone project for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213).
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+This project implements a Client-Server chat application, which supports multiple clients simultaneously.
 
-In this project, you can build your own C++ application starting with this repo, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.7

@@ -5,6 +5,7 @@ add_definitions(-std=c++17)
 set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
-project(HelloWorld)
+project(SimpleChat)
 
-add_executable(HelloWorld src/main.cpp)
+add_executable(SimpleChat-Client src/ClientApp.cpp)
+add_executable(SimpleChat-Server src/ServerApp.cpp)
