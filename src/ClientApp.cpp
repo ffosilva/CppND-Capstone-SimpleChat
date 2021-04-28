@@ -1,6 +1,8 @@
 #include <iostream>
+#include <sys/socket.h>
 
-int main(int argc, char* argv[])
-{
-    std::cout << "Hello, Client!" << std::endl;
+#include "SocketUtils.h"
+
+int main(int argc, char *argv[]) {
+    SocketUtils::CreateClientSocket("google.com.br", 33333);
 }

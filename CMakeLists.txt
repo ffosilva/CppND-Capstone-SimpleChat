@@ -7,5 +7,5 @@ set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
 project(SimpleChat)
 
-add_executable(SimpleChat-Client src/ClientApp.cpp)
-add_executable(SimpleChat-Server src/ServerApp.cpp)
+add_executable(SimpleChat-Client src/ClientApp.cpp src/SocketUtils.cpp)
+add_executable(SimpleChat-Server src/ServerApp.cpp src/SocketUtils.cpp)
